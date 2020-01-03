@@ -14,3 +14,7 @@ conda install numpy
 conda install tensorflow
 
 #执行imdb.load_data(num_words=1000)
+安装autokeras=1.0.0b0
+python -m pip install grpcio-tools
+python -m pip install grpcio
+pip install keras-tuner
