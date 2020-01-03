@@ -1,1 +1,16 @@
+# 为autokeras配置自己的jupyter的环境  
+`conda create -n 环境名称 python=3.5 ipykernel`  
+激活环境
+` conda activate autokeras`  
+将环境写入notebook的kernel中
+`python -m ipykernel install --user --name 环境名称 --display-name "在jupyter中显示的环境名称"`
 
+安装autokeras1.0版本
+pip3 install autokeras==1.0.0b0
+
+安装numpy环境
+conda install numpy
+安装tensorflow
+conda install tensorflow
+
+#执行imdb.load_data(num_words=1000)
